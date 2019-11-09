@@ -1,5 +1,6 @@
 package com.forloop.spring.data.auditing.config;
 
+import com.forloop.spring.data.auditing.config.audit.AuditorAwareImpl;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.data.domain.AuditorAware;

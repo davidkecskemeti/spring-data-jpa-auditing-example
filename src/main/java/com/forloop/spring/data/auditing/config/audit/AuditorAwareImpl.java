@@ -1,4 +1,4 @@
-package com.forloop.spring.data.auditing.config;
+package com.forloop.spring.data.auditing.config.audit;
 
 import org.springframework.data.domain.AuditorAware;
 
@@ -8,6 +8,6 @@ public class AuditorAwareImpl implements AuditorAware<String> {
 
     @Override
     public Optional<String> getCurrentAuditor() {
-        return Optional.empty();
+        return Optional.of("forloop");
     }
 }
